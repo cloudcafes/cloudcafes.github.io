@@ -1,24 +1,26 @@
-# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
-
-entries:
-- title: Sidebar
-  levels: one
-  folders:
-
-  - title: Products
-    output: web
-    folderitems:
-    - title: News
-      url: /news.html
+- title: Database Administration
+  output: web
+  folderitems:
+    - title: Home
+      url: /index.html
       output: web
-    - title: Theme instructions
-      url: /mydoc_introduction.html
+    
+    - title: Oracle Database
+      url: /oracle/
       output: web
-    - title: Product 1
-      url: /p1_landing_page.html
+    
+    - title: MySQL
+      url: /mysql/
       output: web
-    - title: Product 2
-      url: /p2_landing_page.html
+    
+    - title: PostgreSQL  
+      url: /postgresql/
       output: web
-
-# Copyright 2021 Google LLC
+    
+    - title: AWS DBA
+      url: /aws/
+      output: web
+    
+    - title: About
+      url: /about/
+      output: web

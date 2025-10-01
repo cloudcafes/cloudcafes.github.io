@@ -3,18 +3,16 @@ description: "Technical documentation and blog"
 baseurl: ""
 url: "https://cloudcafes.github.io"
 
-# NO theme configuration - we're using local files
-markdown: kramdown
-highlighter: rouge
-permalink: pretty
+# Colors similar to your WordPress theme
+accent_color: "#21759b"  # Your blue color
+background_color: "#ffffff"
 
-# Your settings
-github_edit: "https://github.com/cloudcafes/cloudcafes.github.io/edit/main/"
-search: true
-output: web
+# Header configuration
+header_pages:
+  - about.md
+  - index.md
 
-# GitHub Pages plugins (supported)
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
+# Social links (like your WordPress)
+social:
+  github: cloudcafes
+  # Add others as needed
