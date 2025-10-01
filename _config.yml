@@ -1,17 +1,20 @@
 title: "Cloud Cafes"
-description: "Technical documentation and blog"
-baseurl: ""  # Leave empty for username.github.io
-url: "https://cloudcafes.github.io" 
+description: "Technical documentation and blog" 
+baseurl: ""
+url: "https://cloudcafes.github.io"
 
-# Theme settings
-theme: "jekyll-theme-documentation"
-
-# Build settings
+# NO theme configuration - we're using local files
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
-# Documentation theme specific
+# Your settings
 github_edit: "https://github.com/cloudcafes/cloudcafes.github.io/edit/main/"
 search: true
 output: web
+
+# GitHub Pages plugins (supported)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
