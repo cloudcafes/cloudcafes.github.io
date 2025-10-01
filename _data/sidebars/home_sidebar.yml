@@ -1,24 +1,18 @@
-# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
-
-entries:
-- title: Sidebar
-  levels: one
-  folders:
-
-  - title: Products
-    output: web
-    folderitems:
-    - title: News
-      url: /news.html
+- title: Cloud Cafes
+  output: web
+  folderitems:
+    - title: Getting Started
+      url: /getting-started.html
       output: web
-    - title: Theme instructions
-      url: /mydoc_introduction.html
+    
+    - title: Blog Posts
+      url: /blog/
       output: web
-    - title: Product 1
-      url: /p1_landing_page.html
+    
+    - title: AWS Guide
+      url: /aws-guide/
       output: web
-    - title: Product 2
-      url: /p2_landing_page.html
+    
+    - title: DevOps Guide  
+      url: /devops-guide/
       output: web
-
-# Copyright 2021 Google LLC
